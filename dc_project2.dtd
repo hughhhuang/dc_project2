@@ -1,0 +1,21 @@
+<!DOCTYPE SCIENTIFICREPORT[
+
+<!ENTITY HEADER "http://www.nature.com/scientificreports">
+<!ENTITY INST1 "Medical Research Council Human Immunology Unit, Medical Research Council Weatherall Institute of Molecular
+Medicine, Radclife Department of Medicine, University of Oxford, Oxford OX3 9DS, UK.">
+<!ENTITY INST2 "The Sir William Dunn School of Pathology, University of Oxford, Oxford OX1 3RE, UK.">
+<!ENTITY INST3 "Department of Biochemistry, University of Oxford, Oxford, UK."
+<!ENTITY INST4 ""
+
+<!ELEMENT SCIENTIFICREPORT (JOURNALTITLE, REPORTTITLE, AUTHORS, SECTIONS, HEADER, FOOTER)>
+<!ELEMENT JOURNALTITLE (#PCDATA)>
+<!ELEMENT REPORTTITLE (#PCDATA)>
+<!ELEMENT AUTHORS (FIRSTNAME, MIDINITIAL?, LASTNAME, INSTITUTION)>
+<!ELEMENT SECTIONS (ABSTRACT, INTRO, METHODS, RESULTS, DISCUSSION)>
+<!ELEMENT ABSTRACT (#PCDATA)>
+<!ELEMENT INTRO (#PCDATA)>
+<!ELEMENT METHODS (#PCDATA)>
+<!ELEMENT RESULTS (#PCDATA)>
+<!ELEMENT DISCUSSION (#PCDATA)>
+
+]>
